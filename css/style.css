@@ -1,25 +1,36 @@
 
-body {
-  background-color: antiquewhite;
+body{
+     background-color: antiquewhite;
 }
 
-h1 {
-    color: lightcoral;
+h1{
+     color: lightcoral;
 }
 
-h2 {
+h2{
     color: lightcoral;
 }
-a {
+a{
     color: lightcoral;
 }
-li {
+li{
     color: palevioletred;
 }
 
-li {
+li{
     display: inline;
   }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a:hover{
+   background-color: yellow;
+}
+
   
   
  
