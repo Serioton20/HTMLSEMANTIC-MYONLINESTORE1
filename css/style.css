@@ -1,15 +1,13 @@
 
 body{
   background-color: antiquewhite;
+  text-align: center;
 }
 
-h1{
+h1,h2{
     color: lightcoral;
 }
 
-h2{
-    color: lightcoral;
-}
 a{
     color: lightcoral;
 }
@@ -19,7 +17,28 @@ li{
 
 li{
     display: inline;
+    margin: 10px;
   }
+
+  ul {
+      list-style-type: none;
+       margin: 0;
+        padding: 0;
+        font-size: x-large;  
+    }
+a:hover {
+          background-color: pink;
+          }
+a:link {
+    color:lightcoral;
+  }
+  a:active {
+    color: blue;
+  }
+figcaption {
+    display: block;
+}
+
 
 
   
