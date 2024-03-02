@@ -13,18 +13,15 @@ a{
 }
 li{
     color: palevioletred;
-}
-
-li{
     display: inline;
     margin: 10px;
   }
 
   ul {
       list-style-type: none;
-       margin: 0;
-        padding: 0;
-        font-size: x-large;  
+      margin: 0;
+      padding: 0;
+      font-size: x-large;  
     }
 a:hover {
           background-color: pink;
@@ -37,7 +34,27 @@ a:link {
   }
 figcaption {
     display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(236, 194, 130);
 }
+del {
+  color: red;
+}
+a[href="#top"]{
+  display: block;
+  text-align: right;
+  background-color: peru;
+  color: aliceblue;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+a[href="#top"]:active{
+  color: blue;
+}
+
+
 
 
 
